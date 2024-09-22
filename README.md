@@ -1,1 +1,1 @@
-Simple Web Application Using Flux.
+Simple Spring Boot Reactive Web Application Using Flux.
