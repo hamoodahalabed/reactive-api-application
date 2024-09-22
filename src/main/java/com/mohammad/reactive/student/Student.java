@@ -15,6 +15,6 @@ public class Student {
     @Id
     private Integer id;
     private String firstName;
-    private String lastname;
+    private String lastName;
     private int age;
 }

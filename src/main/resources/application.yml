@@ -1,6 +1,6 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost:5433/spring_reactive
+    url: r2dbc:postgresql://localhost:5432/spring_reactive
     username: postgres
     password: 1234
 #  flyway:

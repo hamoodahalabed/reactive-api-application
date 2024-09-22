@@ -24,10 +24,10 @@ public class ReactiveDemoApplication {
 				studentService.save(
 						Student.builder()
 								.firstName("Mohammad" + i)
-								.lastname("Alabed" + i)
+								.lastName("Alabed" + i)
 								.age(i)
 						.build()
-				);
+				).subscribe();
 			}
 		};
 	}

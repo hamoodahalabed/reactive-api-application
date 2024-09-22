@@ -1,6 +1,6 @@
 CREATE TABLE students (
     id SERIAL NOT NULL PRIMARY KEY ,
-    firstname VARCHAR(250) ,
-    lastname VARCHAR(250) ,
+    first_name VARCHAR(250) ,
+    last_name VARCHAR(250) ,
     age integer
 )
